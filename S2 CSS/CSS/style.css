@@ -1,0 +1,45 @@
+* {
+    font-family: arial;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: cyan;
+    max-width: 900px;
+    height: 100px;
+}
+
+nav {
+    background-color: darkmagenta;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    background-color: steelblue;
+    width: 60%;
+    height: 450px;
+}
+
+article {
+    background-color: violet;
+    max-width: 990px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+}
+
+aside {
+    background-color: violet;
+    width: calc(40% - 25px);
+    height: 450px;
+}
+
+#unico {
+    text-transform: uppercase;
+}
+
+.multi {
+    text-decoration: underline;
+}
