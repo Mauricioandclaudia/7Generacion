@@ -1,0 +1,10 @@
+.contenedor {
+    width: 333px;
+    height: auto;
+    border: solid 10px red;
+    padding: 10pxpx;
+}
+
+label {
+    color: blue;
+}
