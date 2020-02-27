@@ -1,0 +1,31 @@
+header {
+    background-color: aqua;
+}
+
+nav {
+    background-color: fuchsia;
+}
+
+section {
+    background-color: cadetblue;
+}
+
+.main {
+    height: 500px;
+}
+
+aside {
+    background-color: coral;
+}
+
+.col-md-4 {
+    background-color: darkorchid;
+}
+
+footer {
+    background-color: dodgerblue;
+}
+
+.col-md-4 {
+    height: 100px;
+}
