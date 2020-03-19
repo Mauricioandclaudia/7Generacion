@@ -121,6 +121,7 @@ var amentorsNames = [
 //función que me permita ingresar el nombre de un array, y contar cuántos items tiene, si el array no existe, debe enviar un prompt que diga "tu array no existe"
 
 const Array_name = (array_all) => {
+    
         if (Array.isArray(array_all)) {
             console.log("la variable si es un array")
             alert(`Tu variable es un array y contiene ${array_all.length} items`)
