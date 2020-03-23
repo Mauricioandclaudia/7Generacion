@@ -38,7 +38,7 @@ console.log(number_vocals)
 //si tu nombre tiene menos de 15 caracteres, indicarle mediante un mensaje que su nombre es mmuy corto
 //si tiene más de 15 caracteres indicarle que su nombre es muy largo
 
-
+//practica 10
 //Algoritmo2
 //De la asignacion de la practica uno a complete_name verificar mediante un operador condicional si complete_name.length es menor a 15
 //Si es verdadera la condicion imprimir en consola "Tu nombre es muy corto"

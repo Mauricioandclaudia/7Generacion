@@ -62,7 +62,7 @@ práctica:
     */
 
 
-    /* esta bien y funciona pero no es como lo pidio 
+    esta bien y funciona pero no es como lo pidio 
         var name0
 
     var name = prompt("Ingresa el nombre");
@@ -81,7 +81,7 @@ práctica:
 
         }
         //items = prompt("tu array no existe chaval !!!");
-    */
+    
 
 
     //-----------------------------------------------------------------------------------------------//
@@ -187,3 +187,8 @@ const get_Koders_Names = () => {
         //      consti
 
         //    que es ua funcion constructora. - tarea para mañana 11 - 03 - 20
+
+
+
+
+

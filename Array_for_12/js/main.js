@@ -28,7 +28,6 @@ for (var i = 0; i < couns_koders; i++) { // definir la cantidad de iteraciones h
 
 
 koders.forEach((koder) => {
-
     var firstname
 
     firstname = koder.split(" ", 1)
