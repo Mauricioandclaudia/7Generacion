@@ -368,4 +368,3 @@ const objectProps = (obj) => {
     console.log(obj)
 }
 objectProps(koder);
-}
