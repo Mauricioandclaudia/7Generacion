@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+}
+
+#text1 {
+    color: black;
+}
+
+#images1 {
+    width: 150px;
+    height: 30px;
+}
+
+#images2 {
+    width: 550px;
+    height: 550px;
+}
