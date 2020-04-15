@@ -1,0 +1,23 @@
+{
+    "name": "colores",
+    "version": "0.0.1",
+    "description": "\"My first node proyect\",",
+    "main": ",",
+    "scripts": {
+        "code-test": "standard",
+        "say-hi": "echo 'hola mau'"
+    },
+    "author": "",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "mauricioandclaudia"
+    },
+    "dependencies": {
+        "colors": "^1.4.0",
+        "moment": "^2.24.0"
+    },
+    "devDependencies": {
+        "standard": "^14.3.3"
+    }
+}
