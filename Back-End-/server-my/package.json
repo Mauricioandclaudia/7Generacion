@@ -1,0 +1,23 @@
+{
+    "name": "server-my",
+    "version": "1.0.0",
+    "description": "hola mundo, express",
+    "main": "my-server.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "scripts": {
+            "dev": "nodemon my server.js",
+            "start": "nodemon my server.js",
+            "test": "echo 'test runing'"
+
+        }
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}
