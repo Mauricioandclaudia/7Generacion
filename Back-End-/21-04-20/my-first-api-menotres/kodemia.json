@@ -1,0 +1,21 @@
+{
+    "koders": [{
+            "Name": "pepe",
+            "Generation": 7
+        },
+        {
+            "Name": "gaby",
+            "Generation": 7
+        }
+    ],
+
+    "mentors": [{
+            "Name": "Charles",
+            "Position": "coordinador"
+        },
+        {
+            "Name": "David",
+            "Position": "coordinador"
+        }
+    ]
+}
