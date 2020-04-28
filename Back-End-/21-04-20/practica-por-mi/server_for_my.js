@@ -4,7 +4,7 @@ const server = express() //en esta linea estamos creando una nueva aplicacion en
 
 
 
-//----------ha estos se les llama endpoints: la combinacion de un metodo y una ruta----------//
+//----------ha estos se les llama ENPOINTS: la combinacion de un metodo y una ruta----------//
 //-----------los metodo: metoodos HTTP SON: -get,post,delete,put patch-------//
 //-----------las ruta: strings que denotan recursos en nuestro servidor------//
 
