@@ -1,21 +1,22 @@
 {
-    "name": "kodemia-API",
+    "name": "kodemia-api",
     "version": "1.0.0",
-    "description": "",
     "main": "index.js",
     "scripts": {
         "dev": "nodemon index.js",
-        "start": "node index.js"
+        "start": "node index.js",
+        "commit": "npx git-cz",
+        "release": "npx standard-version",
+        "lint": "eslint ./src",
+        "lint:fix": "eslint --fix --ext .js,.jsx ./src",
+        "format": "pretty-quick --pattern \"**/*.*(js|jsx)\""
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
-
     "dependencies": {
         "express": "^4.17.1",
         "mongoose": "^5.9.10"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.3"
     }
+
 }

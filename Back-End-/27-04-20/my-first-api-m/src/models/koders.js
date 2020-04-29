@@ -16,7 +16,7 @@ const koderSchema = new mongoose.Schema({
 
     generation: {
         type: Number,
-        required: true,
+        required: true
         min: 1
     },
 

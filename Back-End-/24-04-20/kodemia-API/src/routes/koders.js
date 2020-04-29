@@ -24,7 +24,66 @@ router.post('/', async(request, response) => {
     })
 })
 
+
+
+router.post('/', async(request, response) => {
+    try {
+
+        const newKoder = await koders.create(request, response)
+        response.json({
+            message: 'koder created',
+            data: {
+                koder: newKoder
+            }
+        })
+
+
+    } catch (error) {
+        response.json({
+            success: false,
+            error: error.message
+        })
+        response.json({
+            access: false,
+            error: error.message,
+            error: error.errors,
+            errorArray
+        })
+    }
+})
+
+
+router.delete('/:id', (request, response) => {
+    try {
+        const { id } = request.params
+        const koderDeleted = koders.deleteById(id)
+        response.json({
+            success: true,
+            message: `koder with id ${id} deleted`,
+            data: {
+                koder: koderDeleted
+            }
+        })
+
+    } catch (error) {
+        {
+            console.log('error: ', error)
+            response.status(400)
+            response.json({
+                success: false,
+                error: error.message
+            })
+        }
+
+    }
+})
+
+router.patch('/:id')
+
 module.exports = router
+
+//try-catch
+
 
 
 
