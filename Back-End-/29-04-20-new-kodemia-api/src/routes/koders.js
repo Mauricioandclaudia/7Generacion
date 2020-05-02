@@ -145,4 +145,26 @@ router.patch('/:id', async(req, res) => {
         }
     })
     //-----------------------------------------------
+    //
+    //
+router.post('/signup', (request, response) => {
+    try {
+        const newKoder = await koders.signup(request.body)
+        response.json({
+            success: true,
+            message: 'koder registered',
+            data: {
+                koder: newKoder
+            }
+        })
+    } catch (error) {
+        response.status(400)
+        response.json({
+            success: false,
+            error: error.message
+        })
+    }
+})
+
+
 module.exports = router

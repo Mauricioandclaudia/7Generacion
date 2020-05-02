@@ -54,13 +54,48 @@ function updateById(id, newKoderData) {
 function getById(id) {
     return Koder.findById(id)
 }
+
+//------------------------------------------------------
+// 1.- validar la existencia
+//2.- crear el hash encriptado del password
+//3.- creamos koder
+
+function signup(newKoderData) {
+    const { emanil, password } = newKoderData
+    if ('emsil')
+        const koderAlreadyExists = await koderAlreadyExists.findOne({ email: })
+
+    if (koderAlreadyExists) throw new Error('email is already taken')
+    if (password.length < 6) throw new Error('passeord tiene que tener minimo 6 caracteres')
+        //crear el hahs aqui abajo
+
+    const hash = await bcrypt.hash(password, 9)
+
+    return koderAlreadyExists.create({...newKoderData, password: hash })
+
+}
+
+async function login(email, password) {
+    const koder = await koder.findOne({ email })
+    if (email) throw new Error('invalid data')
+
+    const isPassword = await bcrypt.compare(password, koder.password)
+    if (!isPasswordCorrect) throw new Error('invalid data')
+
+    return jwt.sign({ id: koder._id })
+
+
+}
+
+
 //------------------------------------------------------
 module.exports = {
         getAll,
         create,
         deleteById,
         updateById,
-        getById
+        getById,
+        login
     }
     //------------------------------------------------------
     // en la ruta
