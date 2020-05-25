@@ -1,0 +1,408 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** 1rem = 10px**/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** GLOBALES **/
+
+.contenedor {
+    max-width: 125rem;
+    margin: 0 auto;
+    
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4trm;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+/* img {
+    max-width: 100%;
+} */
+
+
+/** UTILIDADES **/
+.centrar-texto {
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------* NEW*-------------------------------------------------------------------*/
+
+
+
+
+/**--------------------------------------------------------HOME---------------------------------------------------------------------------**/
+/* header {
+    background-color: white;
+} */
+
+.header-site {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+}
+
+/* .nav-home {
+    width: 40px;
+} */
+
+.nav-home a {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 39px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin: 28px 0px -3px -53px;
+    width: 145px;
+    height: 34px;
+}
+
+
+
+.nav-1 {
+    width: 50%;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    margin-left: 10px;
+    display: inline-flex;
+    height: 39px;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #757575;
+    }
+
+.button-green {
+    border-radius: 3px;
+    color: white;
+    padding: 9px 7px 4px 7px;
+}
+
+.button-green-h {
+    color: black;
+    text-decoration: none;
+    display: inline-flex;
+    /* border-radius: 3px; */
+     box-shadow: inset 0 0 0 1px #757575;
+     background-color: #0ed39b;
+     padding: 5px 5px 5px 18px;
+     /* padding: 3px 0px 0px 24px; */
+}
+
+.font {
+     /* font-family:  medium-marketing-display-font,
+     Georgia,
+     Cambria,
+     "Times New Roman",
+     Times,
+     serif;
+     font-weight: 500;
+     font-size: 70px;
+     line-height: 80px;
+     text-align: center;
+     margin: 119px 98px 0px 126px; */
+
+
+     font-size: 70px;
+     line-height: 80px;
+     text-align: center;
+     margin: 119px 98px 0px 126px;
+     font-family: medium-marketing-display-font,
+     Georgia,
+     Cambria,
+     "Times New Roman",
+     Times,
+     serif;
+     font-weight: 700;
+}
+
+.tex-p {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.nav-body {
+    margin-right: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 16px;
+    border-radius: 99em;
+    box-sizing: inherit;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+}
+
+.icono {
+       width: 136px;
+       height: 40px;
+       margin-left: 9px;
+       padding: 0px;
+       display: inline-flex;
+       background: #f1f1f1;
+       /* transition: background-color 0.2s ease-in-out,
+       color 0.2s ease-in-out; */
+       border-radius: 21px;
+    }
+
+    .icono a {
+        color: #75798c;
+    }
+
+    .all-icono {
+        padding-top: 0px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+
+    .all {
+        margin: 0px;
+        padding-left: 7px;
+        margin-top: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+
+
+
+    .all-icono-s {
+    border-radius: 99em;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+
+   .button {
+       text-align: center;
+   }
+    
+
+   .button-body {
+       border-radius: 9px;
+       width: 333px;
+       height: 70px;
+       background-color: #03a87c;
+       color: #ffffff;
+   }
+
+   .button-body:hover {
+       cursor: pointer;
+       background: rgb(2, 158, 116) none repeat scroll 0% 0%;
+
+   }
+
+.in {
+    text-decoration: none;
+    color: #029e74;
+}
+
+.n-h{
+/* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.n-h a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+
+
+   /**--------------------------------------------------------BODY---------------------------------------------------------------------------**/
+
+
+
+.canvas {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    border-bottom: 1px solid #999;
+    height: 500px;
+}
+
+   .color-1 {
+       
+       width: 33%;
+      
+   }
+
+   .color-2 {
+   
+       width: 33%;
+       height: 411px;
+       margin-left: 6px;
+   }
+
+   .color-3 {
+    
+       width: 33%;
+       margin-left: 6px;
+   }
+
+
+   .w-100 {
+       width: 100%;
+       height: 159px;
+   }
+
+   .M-1 {
+      font-size: 20px !important;
+      line-height: 27px !important;
+      font-style: normal !important;
+      letter-spacing: 0.58px !important;
+      font-weight: 600;
+   }
+
+
+   .A-1 {
+       letter-spacing: 0 !important;
+       font-size: 16px !important;
+       color: rgba(0, 0, 0, .54) !important;
+       color: rgba(0, 0, 0, .54) !important;
+   }
+
+   .art-b {
+      height: 153px; 
+       text-align: justify;
+           font-size: smaller;
+   }
+
+   .img-b {
+    width: 114px;
+    height: 105px;
+   }
+
+   .nav {
+       text-align: center;
+       padding-top: 17px;
+   }
+
+.nav-1 {
+   text-align: center;
+   min-inline-size: -webkit-fill-available;
+   padding-bottom: 20px;
+   }
+
+   .nav-1 a {
+       color: inherit;
+       background-color: transparent;
+       text-decoration: none;
+       font-size: 15px;
+        margin-left: 15px;
+   }
+
+   .nav-1 a:hover{
+       cursor: pointer;
+   }
+
+   .logo {
+       font-family: medium-marketing-display-font,
+       Georgia,
+       Cambria,
+       "Times New Roman",
+       Times,
+       serif;
+       font-weight: 600;
+       font-size: 33px;
+       line-height: 80px;
+   }
+
+   .svgIcon-use {
+       margin-left: 10px;
+   }
+
+   .avatar-image  {
+       padding-top: 5px;
+   }
+
+
+   .art--1 {
+       margin-left: 50px;
+   }
+
+
+.art-2 {
+    margin-right: 100px;
+}
+
+span {
+    font-weight: 500;
+}
+
+.M-1-Magic {
+   padding: 0px;
+   margin: -115px 0px 107px 127px;
+    color: rgba(0, 0, 0, .54) !important;
+   ;
+}
+
+.M-1-Magic-c {
+    font-size: 15px !important;
+    line-height: 27px !important;
+    font-style: normal !important;
+    font-weight: 600;
+    padding: 0px;
+    margin: -114px 18px 113px 128px;
+    padding-bottom: 18px;
+}
+
+.nomber {
+    letter-spacing: 0 !important;
+    font-size: 16px !important;
+   color: black;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.svgIcon-use-1 {
+    padding-top: 2px;
+    margin: -6px 0px 0px 96px;
+    color: rgba(0, 0, 0, .84);
+    ;
+}
+
+
